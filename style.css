@@ -1,0 +1,230 @@
+/*
+Textcolor = rgb(241, 78, 241)
+Bg color = rgb(61, 4, 71)
+Nav color = rgb(47, 3, 60)
+*/
+
+.scroll-div {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(61, 4, 71);
+    color: white;
+}
+
+nav {
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    background-color: rgb(47, 3, 60);
+    padding: 70px 40px 150px 40px;
+    font-size: 30px;  
+}
+
+.nav-top img {
+    border-radius: 30%;
+    width: 150px;
+    margin-bottom: 10px
+}
+
+nav ul {
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:click {
+    transition: height ;
+}
+
+nav ul li a:hover {
+    color: rgb(241, 78, 241);
+    font-size: 98%;
+}
+
+.nav-center img {
+    background-color: rgb(47, 3, 60);
+    width: 25px;
+}
+
+.nav-center button {
+    margin-top: 20px;
+    background-color: rgb(47, 3, 60);
+    border-radius: 25%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+main {
+    margin-left: 300px;
+}
+
+#idHome {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.homeLeft {
+    font-size: 40px;
+    margin: 275px -100px;
+}
+
+.nameColor {
+    font-size: 75px;
+    color: rgb(241, 78, 241);
+}
+
+.nameColor:hover {
+    color: white;
+}
+
+.homeRight img {
+    width: 700px;
+}
+
+main hr {
+    border: 0;
+    background: rgb(241, 78, 241);
+    height: 2px;
+    margin: 0 55px;
+    margin-bottom: 70px;
+}
+
+.Title {
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.About p {
+    font-size: 20px;
+    width: 1000px;
+    text-align: justify;
+}
+
+.AboutImg img {
+    width: 600px;
+}
+
+.Proj div div div {
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.Proj div div {
+    display: flex;
+    justify-content:left;
+}
+
+.Proj {
+    display: flex;
+    width: 1000px;
+    height: 150px;
+    border-style: solid;
+    margin: 20px 20px;
+    transition: width height;
+    transition: ease-in;
+    transition-delay: inherit;
+    transition-duration: 0.25s;
+}
+
+.ProjImg  img{
+    width: 130px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.Proj:hover {
+    border-color: rgb(241, 78, 241);
+    font-size: 20px;
+    width: 1100px;
+}
+
+.Proj div div button {
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(47, 3, 60);
+    border-radius: 60%;
+}
+.Proj button img {
+    width: 20px;
+}
+
+.Timeline {
+    background: white;
+    width: 950px;
+    height: 1.5px;
+    margin: 60px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.TimelineIn {
+    background: white;
+    width: 1.5px;
+    height: 50px;
+}
+
+.TimelineImg {
+    width: 45px;
+    margin: 4px 4px;
+}
+
+.Timeline-title {
+    width: 200px;
+}
+
+.TimelineDesp {
+    font-size: 10px;
+    width: 200px;
+    text-align: justify;
+}
+
+.post-education {
+    margin-top: 200px;
+}
+
+.divContact {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divContact div {
+    width: 375px;
+    height: 225px;
+    background-color: rgb(47, 3, 60);
+    border: solid;
+    border-color: rgb(47, 3, 60);
+    text-align: center;
+    align-items: center;
+    transition: width 1s height 1s;
+    transform-style: linear;
+    transition-duration: 0.5s;
+}
+
+.divContact div:hover {
+    width: 380px;
+    height: 230px;
+    color: rgb(241, 78, 241);
+}
+
+.divContact div img {
+    margin: 20px 0;
+    width: 50px;
+}
+
+.divContact a {
+    text-decoration: none;
+    color: white;
+}
